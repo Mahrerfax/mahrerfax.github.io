@@ -26,9 +26,20 @@ Solltest Du folgende Fehlermeldung bekommen:
 ### Error
 
 {: .box-error}
-**Error:** Error in library(XXXX) : es gibt kein Paket namens ‘XXXX’
+Error in library(XXXX) : es gibt kein Paket namens ‘XXXX’
 
 Kannst Du hiermit das fehlende Package installieren:
 ~~~
 install.packages("XXXX")
+~~~
+
+<h2>2. Laden des Datensatzes</h2>
+Als Beispiel-Daten benutzen wir die Aktienkurse vom 02.02.2022 - 02.02.2023 der NEW WORK SE. Die Aktienkurs-Daten kann man sich ganz einfach auf https://de.finance.yahoo.com/ beschaffen und anschließend in R importieren.
+
+~~~
+#nwse <- read.csv("NWSE.csv", header = TRUE) # Falls .csv benötigt wird
+nwse <- read_excel("937498.xlsx", sheet = 1)
+nwse$Date <- as.Date(nwse$Date, format = "%Y-%m-%d") # Datumsformatierung in YYYY-MM-DD
+colnames(nwse)[6] <- "Kurs" # Adjusted Close wird in "Kurs" umbenannt
+View(nwse)
 ~~~

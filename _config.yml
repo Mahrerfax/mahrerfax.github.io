@@ -20,7 +20,7 @@ author: "Max Habeck"
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Über Mich: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

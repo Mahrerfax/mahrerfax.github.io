@@ -36,12 +36,16 @@ install.packages("XXXX")
 Als Beispiel-Daten benutzen wir die Aktienkurse vom 02.02.2022 - 02.02.2023 der NEW WORK SE. Die Aktienkurs-Daten kann man sich ganz einfach auf https://de.finance.yahoo.com/ beschaffen und anschließend in R importieren.
 
 ~~~
-#nwse <- read.csv("NWSE.csv", header = TRUE) # Falls .csv benötigt wird
-nwse <- read_excel("937498.xlsx", sheet = 1)
+nwse <- read_excel("NWSE.xlsx", sheet = 1)
 nwse$Date <- as.Date(nwse$Date, format = "%Y-%m-%d") # Datumsformatierung in YYYY-MM-DD
 colnames(nwse)[6] <- "Kurs" # Adjusted Close wird in "Kurs" umbenannt
 View(nwse)
 ~~~
+
+### Anmerkung
+
+{: .box-note}
+**data:** Die .csv von Yahoo-Finance sollte mit dem Legacy Editor in Excel bearbeitet und in eine .xlsx konvertiert werden um reibungslos in R damit zu arbeiten.
 
 <h2>3. Visualisierung des Datensatzes</h2>
 Um einen anfänglichen Überblick über die Daten zu bekommen, sollten diese visualiert werden. In R ist das sehr simpel und schnell gemacht mit Hilfe der Packages "ggplot2" und "ggthemes".

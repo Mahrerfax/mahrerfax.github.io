@@ -44,6 +44,7 @@ View(nwse)
 
 <h2>3. Visualisierung des Datensatzes</h2>
 Um einen anfänglichen Überblick über die Daten zu bekommen, sollten diese visualiert werden. In R ist das sehr simpel und schnell gemacht mit Hilfe der Packages "ggplot2" und "ggthemes".
+
 ~~~
 chart_kurs <-ggplot(nwse, aes(x = Date, y = Kurs))+ 
   geom_line()+
@@ -53,4 +54,6 @@ chart_kurs <-ggplot(nwse, aes(x = Date, y = Kurs))+
 
 chart_kurs
 ~~~
+
+
 [Kurs](/assets/img/Rplot.png)

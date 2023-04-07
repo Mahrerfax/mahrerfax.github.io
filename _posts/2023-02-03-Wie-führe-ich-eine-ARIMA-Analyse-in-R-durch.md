@@ -3,7 +3,7 @@ layout: post
 title: Durchführung einer ARIMA-Analyse mit R
 subtitle: Eine einfache Schritt für Schritt Anleitung
 cover-img: /assets/img/stock-gdeec8ab8f_1920.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: /assets/img/thumbnail ARIMA.png
 share-img: /assets/img/stock-gdeec8ab8f_1920.jpg
 tags: [R, ARIMA,]
 ---

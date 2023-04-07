@@ -21,3 +21,14 @@ library(readxl)
 library(ggplot2)
 library(ggthemes)
 ~~~
+
+Solltest Du folgende Fehlermeldung bekommen:
+### Error
+
+{: .box-error}
+**Error:** Error in library(XXXX) : es gibt kein Paket namens ‘XXXX’
+
+Kannst Du hiermit das fehlende Package installieren:
+~~~
+install.packages("XXXX")
+~~~

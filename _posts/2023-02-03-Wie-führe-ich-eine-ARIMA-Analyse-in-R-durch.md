@@ -25,7 +25,7 @@ library(ggthemes)
 Solltest Du folgende Fehlermeldung bekommen:
 ### Error
 {: .box-error}
-Error in library(XXXX) : es gibt kein Paket namens ‘XXXX’
+**Error:** in library(XXXX) : es gibt kein Paket namens ‘XXXX’
 
 Kannst Du hiermit das fehlende Package installieren:
 ~~~

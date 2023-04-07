@@ -58,3 +58,21 @@ chart_kurs
 
 
 ![Kurs](/assets/img/Rplot.png)
+
+<h2>4. Prüfung auf Stationärität</h2>
+
+Um ein ARIMA-Modell aufstelllen zu können muss überprüft werden, ob die Zeitreihe stationär ist. Stationarität bedeutet, dass statistische Eigenschaften wie der Mittelwert und Varianz zeitunabhängig sind. Sollte die zeitreihe nicht "bereinigt" von Trends sein, kann keine sinvolle Vorhersage getroffen werden, da Scheinkorrelationen bestehen.
+
+Wir überprüfen die Zeitreihe auf Stationärität anhand des Augmented Dickey-Fuller Test (ADF-Test).
+
+Nullhypthose (H0): Zeitreihe ist nicht stationär
+
+Bei einem p-Wert > 0,05 wird die Nullhypothese verworfen
+
+### Output
+
+{: .box-note}
+**Note:** nwse$Kurs <br> Dickey-Fuller = -1.4565, Lag order = 6, p-value = 0.8047 <br> alternative hypothesis: stationary
+
+
+

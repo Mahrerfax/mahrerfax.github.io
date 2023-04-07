@@ -72,7 +72,25 @@ Bei einem p-Wert > 0,05 wird die Nullhypothese verworfen
 ### Output
 
 {: .box-note}
-**Note:** nwse$Kurs <br> Dickey-Fuller = -1.4565, Lag order = 6, p-value = 0.8047 <br> alternative hypothesis: stationary
+**data:** nwse$Kurs <br> Dickey-Fuller = -1.4565, Lag order = 6, p-value = 0.8047 <br> alternative hypothesis: stationary
+
+<h2>5. Differenzierung</h2>
+Noch liegt der p-Wert weit über 0,05, heißt die Zeitreihe ist unstationär. Um die Zeitreihe stationär zu machen, wird Differenziert um sie von Trends und dadurch entstehenden Scheinkorrelationen zu bereinigen. <br> Wenn wir diese differenzierte Zeitreihe plotten, ist nicht mehr der absolute Kurswert abgebildet. Was jedoch hier zu sehen ist die Veränderung bzw. die Entwicklung des Aktienkurses im Verhältnis zu einem Zeitpunkt, beispielsweise zum Vortag. So kann man Trends und Muster in den Kursbewegungen erkennen und die Auswirkungen von Ereignissen oder Nachrichten auf den Kurs beurteilen.
+
+~~~
+nwse.Diff <- nwse$Kurs[-1] - head(nwse$Kurs,-1)
+plot(nwse.Diff, type = "l")
+adf.test(nwse.Diff)
+~~~
+### Output
+
+{: .box-note}
+**data:** nwse.Diff <br> Dickey-Fuller = -6.0359, Lag order = 6, p-value = 0.01 <br> alternative hypothesis: stationary
+
+![Kurs_diff](/assets/img/diff_plot.png)
+
+
+
 
 
 

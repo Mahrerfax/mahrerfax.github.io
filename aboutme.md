@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Wer bin ich?
+subtitle: Schön, dass Du dir Zeit nimmst und mich ein bisschen kennenlernen möchtest!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Mein Name ist Max Habeck und ich studiere zurzeit Wirtschaftsinformatik an der [Fachhochschule Kiel](https://www.fh-kiel.de/startseite/)
 
 - I rock a great mustache
 - I'm extremely loyal to my family

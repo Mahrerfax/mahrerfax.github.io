@@ -11,7 +11,7 @@ tags: [R, ARIMA,]
 Das ARIMA-Modell ist ein statistisches Modell, das zur Vorhersage von Zeitreihen verwendet wird. Es besteht aus drei Elementen: AutoRegressive (AR), Integrated (I) und Moving Average (MA). Der AR-Teil zeigt die Beziehung zwischen aktuellen Zeitreihenwerten und früheren Werten, der I-Teil beschreibt die Verarbeitung nicht-stationärer Prozesse und der MA-Teil zeigt die Abhängigkeit aktueller Werte von unvorhersehbaren Ereignissen in der Vergangenheit.
 Anhand eines vereinfachten Beispieles werde ich in diesem Post demonstrieren, wie man solch eine Analyse in R durchführt
 <h2>1. Importieren der benötigten Modelle</h2>
-Für das Aufstellen eines ARIMA-Modells benötigen wir folgende R-Packages
+Für das Aufstellen eines ARIMA-Modells benötigen wir folgende R-Packages:
 
 ~~~
 library(dplyr)

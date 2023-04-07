@@ -41,3 +41,16 @@ nwse$Date <- as.Date(nwse$Date, format = "%Y-%m-%d") # Datumsformatierung in YYY
 colnames(nwse)[6] <- "Kurs" # Adjusted Close wird in "Kurs" umbenannt
 View(nwse)
 ~~~
+
+<h2>3. Visualisierung des Datensatzes</h2>
+Um einen anfänglichen Überblick über die Daten zu bekommen, sollten diese visualiert werden. In R ist das sehr simpel und schnell gemacht mit Hilfe der Packages "ggplot2" und "ggthemes".
+~~~
+chart_kurs <-ggplot(nwse, aes(x = Date, y = Kurs))+ 
+  geom_line()+
+  scale_x_date("Feb '22 - Feb '23")+
+  ylab("Kurs")+
+  theme_solarized_2()
+
+chart_kurs
+~~~
+[Kurs](/assets/img/Rplot.png)

@@ -62,6 +62,7 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
   - Position: Kreisläufer
   - Sammler von 2-Minuten-Strafen
   - Betreuer von Jugendmannschaften
+- Nach abgeschlossener Ausbildung für mehrere Monate durch Süd-Ost-Asien und Europe gebackpacked (weiterhin angestellt, jedoch wurde unbezahlter Urlaub wurde ermöglicht)
 - Klavier und Keyboard 10 Jahre
 - Basics in Musikproduktion mit Ableton
 

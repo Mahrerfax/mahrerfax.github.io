@@ -11,6 +11,8 @@ Seit Juli 2021 bin ich bei der [New Work SE](https://www.new-work.se/de), vorher
 Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Seite vom Fußball und Amerikanischen Sportarten. Dieses Interesse für die Zahlen und Statistiken im Sport entstand durch das Buch "Football Hackers" von Christoph Biermann, dem Film "Moneyball" sowie Stunden in den Football Manager Games von SEGA und EA.
 
 <h2>Weitere Ausbildung und Arbeitserfahrung:</h2>
+
+
 - Ausbildung zum Bankkaufmann bei der [Volksbank Neumünster](https://www.meine-vrbank.de/startseite.html) <br>
 - Nach Abschluss der Ausbildung Übernahme als Serviceberater und Mitarbeiter im Kreditservice <br>
 - Verkaufsberater beim Vertieb von Uhren bei Fossil (Europe) GmbH <br>

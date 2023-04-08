@@ -4,7 +4,7 @@ title: Wer bin ich?
 subtitle: Schön, dass Du dir Zeit nimmst und mich ein bisschen kennenlernen möchtest!
 ---
 
-Mein Name ist Max Habeck und ich studiere zurzeit Wirtschaftsinformatik an der [Fachhochschule Kiel](https://www.fh-kiel.de/startseite/)
+Ich bin Max Habeck, 25 Jahre alt und studiere zurzeit Wirtschaftsinformatik an der [Fachhochschule Kiel](https://www.fh-kiel.de/startseite/).
 
 - I rock a great mustache
 - I'm extremely loyal to my family

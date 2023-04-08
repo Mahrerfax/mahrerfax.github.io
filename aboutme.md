@@ -8,6 +8,8 @@ Ich bin Max Habeck, 25 Jahre alt based in Hamburg/Kiel/Neumünster und studiere 
 
 Seit Juli 2021 bin ich bei der [New Work SE](https://www.new-work.se/de), vorher als Werkstudent und anschließend Anfang 2023 als Praktikant in Quality & Security für die Plattform XING, tätig. Hier kümmere ich überwiegend um die Bearbeitung von gemeldeten Inhalten (Stichwort: Fakeprofile, Hatespeech) und betreue die Job Crawler mit.
 
+Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Seite vom Fußball und Amerikanischen Sportarten. Dieses Interesse für die Zahlen und Statistiken im Sport entstand durch das Buch "Football Hackers" von Christoph Biermann, dem Film "Moneyball" sowie Stunden in den Football Manager Games von SEGA und EA.
+
 <h2>Weitere Ausbildung und Arbeitserfahrung:</h2>
 - Ausbildung zum Bankkaufmann bei der [Volksbank Neumünster](https://www.meine-vrbank.de/startseite.html) <br>
 - Nach Abschluss der Ausbildung Übernahme als Serviceberater und Mitarbeiter im Kreditservice <br>
@@ -31,7 +33,14 @@ Seit Juli 2021 bin ich bei der [New Work SE](https://www.new-work.se/de), vorher
   - Regressionen, Gleitender Durchschnitt
   - Power Pivot
 
+- Sprachen:
+  - Deutsch (Muttersprache)
+  - Englisch (Fließend)
+  - Spanisch (Basics/A1)
+
 - SQL (MySQL, JQL)
+
+- BPMN 2.0
 
 - HTML/CSS (Basics)
 
@@ -43,6 +52,16 @@ Seit Juli 2021 bin ich bei der [New Work SE](https://www.new-work.se/de), vorher
 
 - Jira
 
+- Miro
+
+
+## Fun Facts und Hobbies
+- 15 Jahre lang Handball bei der SG WIFT Neumünster 
+  - Position: Kreisläufer
+  - Sammler von 2-Minuten-Strafen
+  - Betreuer von Jugendmannschaften
+- Klavier und Keyboard 10 Jahre
+- Basics in Musikproduktion mit Ableton
 
 
 

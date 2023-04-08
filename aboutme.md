@@ -4,13 +4,8 @@ title: Wer bin ich?
 subtitle: Schön, dass Du dir Zeit nimmst und mich ein bisschen kennenlernen möchtest!
 ---
 
-Ich bin Max Habeck, 25 Jahre alt und studiere zurzeit Wirtschaftsinformatik an der [Fachhochschule Kiel](https://www.fh-kiel.de/startseite/).
+Ich bin Max Habeck, 25 Jahre alt und based in Hamburg/Kiel/Neumünster.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+💼 Zum jetzigen Zeitpunkt bin ich bei der der [New Work SE](https://www.new-work.se/de) als Praktikant in Quality & Security für die Plattform XING tätig. Hier kümmere ich überwiegend um die Bearbeitung von gemeldeten Inhalten (Stichwort: Fakeprofile, Hatespeech) und betreue die Job Crawler mit.
 
-What else do you need?
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Datenauskunft 27. Spieltag 2. Bundesliga
+cover-img: /assets/img/27_Spieltag/IMG_20180803_202610.jpg
+thumbnail-img: /assets/img/27_Spieltag/IMG_20171126_151604.jpg
 subtitle: Vorschau HSV gg. Hannover 96
 tags: [HSV, H96, Hannover, 2.Bundesliga]
 

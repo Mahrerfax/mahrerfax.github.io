@@ -64,6 +64,7 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
   - Betreuer von Jugendmannschaften
 - Nach abgeschlossener Ausbildung für mehrere Monate durch Süd-Ost-Asien und Europe gebackpacked (weiterhin angestellt, jedoch wurde unbezahlter Urlaub ermöglicht)
 - Klavier und Keyboard 10 Jahre
+- Schwarzer Tee-Enjoyer
 - Basics in Musikproduktion mit Ableton
 
 

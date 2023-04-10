@@ -22,6 +22,7 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
 
 - R:
   - Data Wrangling (dplyr, tidyverse) <br>
+  - Web Scraping (rvest) [Beispiel](https://github.com/Mahrerfax/Web-Scrape-BuLi-R)
   - Data Visualization von Finanz- und Fußballdaten (ggplot2, ggshakeR)<br>
   - Statistik <br>
 
@@ -42,6 +43,13 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
 
 - SQL (MySQL, JQL)
 
+- Microsoft Teams
+
+- Microsoft Powerpoint
+
+- Microsoft Word
+- Slack
+
 - BPMN 2.0
 
 - HTML/CSS (Basics)
@@ -50,7 +58,7 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
 
 - Git/Github
 
-- Conflunce
+- Confluence
 
 - Jira
 
@@ -64,8 +72,9 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
   - Betreuer von Jugendmannschaften
 - Nach abgeschlossener Ausbildung für mehrere Monate durch Süd-Ost-Asien und Europe gebackpacked (weiterhin angestellt, jedoch wurde unbezahlter Urlaub ermöglicht)
 - Klavier und Keyboard 10 Jahre
-- Schwarzer Tee-Enjoyer
 - Basics in Musikproduktion mit Ableton
+- Schwarzer Tee-Enjoyer
+
 
 
 

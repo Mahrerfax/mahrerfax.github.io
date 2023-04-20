@@ -135,5 +135,10 @@ h steht hier in diesem Fall für die Periode. Da die Zeitreihe aus Tagen besteht
     fc
     plot(fc)
 
+![Forecast](/assets/img/forecast.png)
+
+Diese Funktion gibt Konfidenzintervall von 80% aus. Die Vorhersage liegt im Intervall zwischen 164.4404 und 174.0207. Heißt, der Aktienkurs wird am nächsten Tag mit 80%iger Wahrscheinlichkeit zwischen diesen beiden Werten liegen.
+
+Dies ist ebenfalls noch mal im Plot abgebildetet. Der dunkelblau gefärbte Teil stellt das 80% Intervall und der hellblaue das 95% Intervall dar.
 
 

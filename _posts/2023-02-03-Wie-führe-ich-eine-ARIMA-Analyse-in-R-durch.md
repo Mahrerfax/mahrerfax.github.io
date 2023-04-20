@@ -110,6 +110,9 @@ Der ACF zeigt die Korrelation einer Größe mit sich selbst zu einem früheren Z
 
 Der PACF zeigt ebefalls die Korrelation einer Größe mit sich selbst zu einem früheren Zeitpunkt, jedoch sind Auswirkungen von früheren Zeitpunkten bereits             berücksichtigt.
 
+    acf(nwse.Diff)
+    pacf(nwse.Diff)
+
 ## 7. Aufstellung des ARIMA-Modells
 
 Mit der Funktion auto.arima() lassen sich die ARIMA Parameter automatisiert bestimmen und man kann ein gefittetes Modell aufstellen.

@@ -93,8 +93,44 @@ adf.test(nwse.Diff)
 
 ![Kurs_diff](/assets/img/diff_plot.png)
 
+## 6. Bestimmung der ARIMA-Notation
+
+Für das Arima Modell müssen noch die richtigen Parameter bestimmt werden.
+
+Die allgemeine ARIMA Notation: 𝐴𝑅𝐼𝑀𝐴(𝑝, 𝑑, 𝑞)
+
+• 𝑝 = Anzahl an autoregressiven Parametern (Werten) im Modell, d. h. die Anzahl an Lags\
+• 𝑑 = Anzahl an aufgespaltenen Serien, d. h. die Anzahl an Differenzierungen zur Herstellung\
+von Stationarität\
+• 𝑞 = Anzahl an gleitenden Fehler-Mittelwerten
+
+Die Parameter p und q lassen sich mit dem ACF (Autokorrelationsfunktion) und dem PACF (Partielle Autokorrelationsfunktion) bestimmen.
+
+Der ACF zeigt die Korrelation einer Größe mit sich selbst zu einem früheren Zeitpunkt.
+
+Der PACF zeigt ebefalls die Korrelation einer Größe mit sich selbst zu einem früheren Zeitpunkt, jedoch sind Auswirkungen von früheren Zeitpunkten bereits             berücksichtigt.
+
+## 7. Aufstellung des ARIMA-Modells
+
+Mit der Funktion auto.arima() lassen sich die ARIMA Parameter automatisiert bestimmen und man kann ein gefittetes Modell aufstellen.
+
+    fit_model <- auto.arima(nwse.Diff)
+    summary(fit_model)
+
+### Output
+{: .box-note}
+**data:** Series: nwse.Diff<br> ARIMA(1,1,2) 
 
 
+## 8.  Vorhersage
+
+Mit der forecast() Funktion lässt sich eine Vorhersage für die nächste Periode anhand des fitted Modell treffen.
+
+h steht hier in diesem Fall für die Periode. Da die Zeitreihe aus Tagen besteht, entspricht h=1 einem Tag.
+
+    fc <- forecast(fit_model, h = 1)
+    fc
+    plot(fc)
 
 
 

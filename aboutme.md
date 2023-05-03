@@ -23,7 +23,7 @@ Neben dem Studium und der Arbeit beschäftige ich mich viel mit der Analytics Se
 - R:
   - Data Wrangling (dplyr, tidyverse) <br>
   - Web Scraping (rvest) [Beispiel](https://github.com/Mahrerfax/Web-Scrape-BuLi-R)
-  - Data Visualization von Finanz- und Fußballdaten (ggplot2, ggshakeR)<br>
+  - Data Visualization (ggplot2, ggshakeR)<br>
   - Statistik <br>
 
 - Python:
